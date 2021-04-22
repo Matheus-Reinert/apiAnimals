@@ -15,8 +15,10 @@ public class Animal {
     @Id
     @GeneratedValue
     private Long id;
-    private String AnimalDescription;
+    private String animalDescription;
     private AnimalClass animalClass;
     private AnimalGroup animalGroup;
+
+
 
 }
