@@ -108,3 +108,6 @@ Obs 1: antes de clicar em send para fazer a consulta, certifique-se de que estej
 3 - Clique em send para efetuar a consulta
 ![](images/send.png)
 
+=======
+## Usando o método POST
+Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estão gravados apenas em tempo de execução, em breve estará em um banco de dados que fique gravado de forma definitiva.
