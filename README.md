@@ -66,7 +66,37 @@ Para download e instalação no PC clique em: [Download postman](https://www.pos
 
 ![](images/urlPostaman.png)
 
+## Usando o método POST
+
+Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estarão gravados apenas em tempo de execução, em breve (quando for inplenetado) estará em um banco de dados que fique gravado de forma definitiva.
+
+Use este link como enderço onde será salvo  novo animal através do metodo HTTP POST http://localhost:8080/animals/
+
+
+O 7º animal salvo foi a Rã-bugio conforme a figura abaixo 
+```json
+{
+    "animalDescription": "Rã-bugio",
+    "animalClass": "1",
+    "animalGroup": "1"
+}
+
+```
+Obs 1: Configure o postman para fazer o POST conforme indicado pela seta azul.
+
+Obs 2: Configure o postman para formato Json, conforme circulado em azul
+
+obs 3: Insira o animal desejado, podendo ser usado como teste o Json acima
+
+Obs 3: Campo circulado em vermelho, local ode foi inserido o animal em formato Json para ser cadastrado
+
+Obs 5: Campo circulado em preto resultado que o animal foi cadastrado com sucesso.
+
+
+![](images/postAnfibio1.png)
+
 ## Usando o método GET
+
 2 - Certifique se de que esteja selecionado o método GET
 ![](images/get.png)
 
@@ -78,5 +108,3 @@ Obs 1: antes de clicar em send para fazer a consulta, certifique-se de que estej
 3 - Clique em send para efetuar a consulta
 ![](images/send.png)
 
-## Usando o método POST
-Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estão gravados apenas em tempo de execução, em breve estará em um banco de dados que fique gravado de forma definitiva.
