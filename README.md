@@ -108,6 +108,7 @@ Obs 1: antes de clicar em send para fazer a consulta, certifique-se de que estej
 3 - Clique em send para efetuar a consulta
 ![](images/send.png)
 
+
 ## metodo GET por ID
 
 1 - informe o Id na URL para efetuar o metodo GET no Id desejado, conforme indicado pela seta azul da imagem abaixo
@@ -116,4 +117,9 @@ Obs1: neste caso passei o Id seis porque tenho mais que 6 animais cadastrados e 
 
 Obs2: veja o resultado conforme o json da imagem, veja também o Id 6 circulado em azul.
 ![](images/getAninal-6.png)
+
+=======
+=======
+## Usando o método POST
+Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estão gravados apenas em tempo de execução, em breve estará em um banco de dados que fique gravado de forma definitiva.
 
