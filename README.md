@@ -61,3 +61,22 @@ O que é o Postaman?
 O Postaman é uma ferramenta que permite realizar requisições HTTP para testar APIs RESTs e pode ser usada com extenção no navegador Google Chrome ou instalação direta no PC); para saber mais  sobre o Postaman clique em: [Enotas](https://enotas.com.br/blog/postman/).
 
 Para download e instalação no PC clique em: [Download postman](https://www.postman.com/downloads/).
+
+1 - Após subir a aplicação, abra o Postman e em seu painel no campo _Enter request URL_, informe a URL, neste caso http://localhost:8080/animals conforme imagem abaixo
+
+![](images/urlPostaman.png)
+
+## Usando o método GET
+2 - Certifique se de que esteja selecionado o método GET
+![](images/get.png)
+
+Obs 1: antes de clicar em send para fazer a consulta, certifique-se de que esteja em formato Json, já que a estrutura do nosso banco de dados é em Json.
+
+
+![](images/selecioneJson.png)
+
+3 - Clique em send para efetuar a consulta
+![](images/send.png)
+
+## Usando o método POST
+Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estão gravados apenas em tempo de execução, em breve estará em um banco de dados que fique gravado de forma definitiva.
