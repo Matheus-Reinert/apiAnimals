@@ -56,9 +56,9 @@ instalado clique em: [Download JDK](https://www.oracle.com/br/java/technologies/
 
 ## Agora utilizaremos o Postman para testar a nossa aplicação.
 
-O que é o Postaman?
+O que é o Postman?
 
-O Postaman é uma ferramenta que permite realizar requisições HTTP para testar APIs RESTs e pode ser usada com extenção no navegador Google Chrome ou instalação direta no PC); para saber mais  sobre o Postaman clique em: [Enotas](https://enotas.com.br/blog/postman/).
+O Postman é uma ferramenta que permite realizar requisições HTTP para testar APIs RESTs e pode ser usada com extenção no navegador Google Chrome ou instalação direta no PC); para saber mais  sobre o Postaman clique em: [Enotas](https://enotas.com.br/blog/postman/).
 
 Para download e instalação no PC clique em: [Download postman](https://www.postman.com/downloads/).
 
