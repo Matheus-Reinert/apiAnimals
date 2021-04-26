@@ -69,8 +69,8 @@ Para deletar um animal, selecione a opção DELETE e inclua na URL um / com a po
 
 ## Veja abaixo:  (Não esqueça de pressionar o enter após a instrução)
 
-![](images/metodo1.jpeg)
+![](images/Metodo1.jpeg)
 
 Logo após, selecione a opção GET e confira sua execução feita com sucesso.
 
-![](images/metodo2.jpeg) 
+![](images/Metodo2.jpeg) 
