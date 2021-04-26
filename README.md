@@ -119,3 +119,20 @@ Obs2: veja o resultado conforme o json da imagem, veja também o Id 6 circulado 
 ![](images/getAninal-6.png)
 
 
+
+Para download e instalação no PC clique em: [Download postman](https://www.postman.com/downloads/).
+
+
+# COMO UTILIZAR O "DELETE"
+
+Para deletar um animal, selecione a opção DELETE e inclua na URL um / com a posição do animal que pretende excluir. Exemplo: https.../3
+
+## Veja abaixo:  (Não esqueça de pressionar o enter após a instrução)
+
+![](images/Metodo1.jpeg)
+
+Logo após, selecione a opção GET e confira sua execução feita com sucesso.
+
+![](images/Metodo2.jpeg) 
+=======
+
