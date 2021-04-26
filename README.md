@@ -56,9 +56,69 @@ instalado clique em: [Download JDK](https://www.oracle.com/br/java/technologies/
 
 ## Agora utilizaremos o Postman para testar a nossa aplicação.
 
-O que é o Postaman?
+O que é o Postman?
 
-O Postaman é uma ferramenta que permite realizar requisições HTTP para testar APIs RESTs e pode ser usada com extenção no navegador Google Chrome ou instalação direta no PC); para saber mais  sobre o Postaman clique em: [Enotas](https://enotas.com.br/blog/postman/).
+O Postman é uma ferramenta que permite realizar requisições HTTP para testar APIs RESTs e pode ser usada com extenção no navegador Google Chrome ou instalação direta no PC); para saber mais  sobre o Postaman clique em: [Enotas](https://enotas.com.br/blog/postman/).
+
+Para download e instalação no PC clique em: [Download postman](https://www.postman.com/downloads/).
+
+1 - Após subir a aplicação, abra o Postman e em seu painel no campo _Enter request URL_, informe a URL, neste caso http://localhost:8080/animals conforme imagem abaixo
+
+![](images/urlPostaman.png)
+
+## Usando o método POST
+
+Obs : Até o momento o nosso banco de dados está em memoria  RAM, apenas para efeito de testes e os dados estarão gravados apenas em tempo de execução, em breve (quando for inplenetado) estará em um banco de dados que fique gravado de forma definitiva.
+
+Use este link como enderço onde será salvo  novo animal através do metodo HTTP POST http://localhost:8080/animals/
+
+
+O 7º animal salvo foi a Rã-bugio conforme a figura abaixo 
+```json
+{
+    "animalDescription": "Rã-bugio",
+    "animalClass": "1",
+    "animalGroup": "1"
+}
+
+```
+Obs 1: Configure o postman para fazer o POST conforme indicado pela seta azul.
+
+Obs 2: Configure o postman para formato Json, conforme circulado em azul
+
+obs 3: Insira o animal desejado, podendo ser usado como teste o Json acima
+
+Obs 3: Campo circulado em vermelho, local ode foi inserido o animal em formato Json para ser cadastrado
+
+Obs 5: Campo circulado em preto resultado que o animal foi cadastrado com sucesso.
+
+
+![](images/postAnfibio1.png)
+
+## Usando o método GET
+
+2 - Certifique se de que esteja selecionado o método GET
+![](images/get.png)
+
+Obs 1: antes de clicar em send para fazer a consulta, certifique-se de que esteja em formato Json, já que a estrutura do nosso banco de dados é em Json.
+
+
+![](images/selecioneJson.png)
+
+3 - Clique em send para efetuar a consulta
+![](images/send.png)
+
+
+## metodo GET por ID
+
+1 - informe o Id na URL para efetuar o metodo GET no Id desejado, conforme indicado pela seta azul da imagem abaixo
+
+Obs1: neste caso passei o Id seis porque tenho mais que 6 animais cadastrados e por enquanto estão numerados de forma sequêncial.
+
+Obs2: veja o resultado conforme o json da imagem, veja também o Id 6 circulado em azul.
+![](images/getAninal-6.png)
+
+
 
 Para download e instalação no PC clique em: [Download postman](https://www.postman.com/downloads/).
 
@@ -74,3 +134,5 @@ Para deletar um animal, selecione a opção DELETE e inclua na URL um / com a po
 Logo após, selecione a opção GET e confira sua execução feita com sucesso.
 
 ![](images/Metodo2.jpeg) 
+=======
+
